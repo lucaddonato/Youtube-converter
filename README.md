@@ -1,17 +1,17 @@
 # Youtube converter
-Este programa permite baixar e converter vídeos do YouTube para os seguintes formatos:
+*Este programa permite baixar e converter vídeos do YouTube para os seguintes formatos:*
 
-🎥 **Vídeo**
+🎥 **Vídeo |**
 .mp4
 .mov
 .avi
 
-🎵 **Áudio**
+🎵 **Áudio |**
 .mp3
 .wav
 .flac
 
-# Como usar
+## Como usar
 1. Cole o link do vídeo
 2. Escolha um local para salvar o arquivo
 3. Selecione o formato desejado
@@ -20,6 +20,6 @@ Este programa permite baixar e converter vídeos do YouTube para os seguintes fo
 Para rodar o app, basta executar o arquivo:
 **main.py**
 
-# Instalação
+## Instalação
 Download 'python','ffmpeg'
 **pip install pytubefix**
