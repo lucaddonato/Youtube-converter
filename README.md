@@ -21,4 +21,5 @@ Para rodar o app, basta executar o arquivo:
 **main.py**
 
 # Instalação
+Download 'python','ffmpeg'
 **pip install pytubefix**
