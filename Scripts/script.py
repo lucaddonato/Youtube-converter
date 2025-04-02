@@ -141,7 +141,7 @@ def janela():
         
         for link in lista_links:
             if link.strip():
-                downloader = Youtube(link.strip(), caminho_pasta, formato)
+                downloader = Youtube(link.strip(), caminho_pasta, formato, tipo)
                 downloader.download()
                 print(f"{link.strip()} | {formato}")
 
