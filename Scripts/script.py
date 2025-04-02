@@ -150,6 +150,7 @@ def janela():
     botao_confirmar.pack(pady=20)
 
 
+
     # Atualizar interface
     def atualizar_interface(event=None):
         numero_linhas = int(caixa_links.index("end-1c").split('.')[0])
