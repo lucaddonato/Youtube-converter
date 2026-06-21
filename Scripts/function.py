@@ -6,7 +6,7 @@ from Scripts.script import *
 
 
 # FFmpeg
-ffmpeg = r"C:\\ffmpeg-8.1.1-essentials_build\\bin"
+FFMPEG = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
 
 
 
@@ -39,7 +39,14 @@ class Youtube:
         arquivo_temp = nome + "_tmp" + ext
         
         try:
-            comando = ["ffmpeg", "-v", "error", "-i", arquivo, "-c:a", "flac", "-y", arquivo_temp]
+            comando = [
+            FFMPEG,
+            "-v", "error",
+            "-i", arquivo,
+            "-c:a", "flac",
+            "-y",
+            arquivo_temp
+            ]
             subprocess.run(comando, check=True)
             os.remove(arquivo)
             os.rename(arquivo_temp, arquivo)
