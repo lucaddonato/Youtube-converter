@@ -26,3 +26,4 @@ To run the app, just open the file:
   - **ffmpeg**
   - [https://www.ffmpeg.org/download.html]
   - **pip install pytubefix**
+  - **pip install pillow**
