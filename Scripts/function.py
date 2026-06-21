@@ -5,6 +5,13 @@ from Scripts.script import *
 
 
 
+# FFmpeg
+ffmpeg = r"C:\\ffmpeg-8.1.1-essentials_build\\bin"
+
+
+
+
+
 # Classes e funções
 class Youtube:
     def __init__(self, url: str, caminho: str, formato: str = ".flac", tipo: str = "audio"):
